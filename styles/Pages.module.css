@@ -1,0 +1,193 @@
+.container {
+  padding: 20px;
+  min-width: 350px;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  gap: 15px;
+}
+/* .social{
+  display: flex;
+} */
+
+.title {
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  color: #0f1419;
+  text-align: center;
+}
+
+.stats {
+  margin: 20px 0;
+  padding: 16px;
+  background: #f7f9f9;
+  border-radius: 12px;
+  border: 1px solid #eff3f4;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  background: #1d9bf0;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background: #1a8cd8;
+}
+
+.countButton {
+  composes: button;
+  background: #ffffff;
+  color: #1d9bf0;
+  border: 1px solid #eff3f4;
+}
+
+.countButton:hover {
+  background: #f7f9f9;
+}
+
+.stopButton {
+  composes: button;
+  background: #f4212e;
+}
+
+.stopButton:hover {
+  background: #dc1221;
+}
+
+.statusText {
+  margin: 8px 0;
+  color: #536471;
+  font-size: 15px;
+}
+
+.optionContainer {
+  margin: 20px 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  margin: 8px 0;
+  color: #0f1419;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.2s;
+}
+
+.checkbox:hover {
+  background: #f7f9f9;
+}
+
+.checkbox input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+  accent-color: #1d9bf0;
+}
+
+.buttonGroup {
+  margin: 24px 0;
+}
+
+.inputContainer {
+  margin: 16px 0;
+}
+
+.inputLabel {
+  display: block;
+  color: #0f1419;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.textInput {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #eff3f4;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #0f1419;
+  background: #ffffff;
+  transition: border-color 0.2s;
+}
+
+.textInput:focus {
+  outline: none;
+  border-color: #1d9bf0;
+}
+
+.textInput::placeholder {
+  color: #536471;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .container {
+    background: #15202b;
+  }
+
+  .title {
+    color: #ffffff;
+  }
+
+  .stats {
+    background: #1e2732;
+    border-color: #38444d;
+  }
+
+  .checkbox {
+    color: #ffffff;
+  }
+
+  .checkbox:hover {
+    background: #1e2732;
+  }
+
+  .countButton {
+    background: #15202b;
+    border-color: #38444d;
+  }
+
+  .countButton:hover {
+    background: #1e2732;
+  }
+
+  .statusText {
+    color: #8b98a5;
+  }
+
+  .inputLabel {
+    color: #ffffff;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .textInput {
+    background: #1e2732;
+    border-color: #38444d;
+    color: #ffffff;
+  }
+
+  .textInput::placeholder {
+    color: #8b98a5;
+  }
+
+  .textInput:focus {
+    border-color: #1d9bf0;
+  }
+}
