@@ -3,13 +3,15 @@
 The **Next.js X/Twitter Auto Unfollower** is a Chrome extension that allows users to unfollow accounts on Twitter efficiently. Built with Next.js and React, this extension demonstrates the integration of modern web technologies into Chrome extension development.
 
 ## Table of Contents ✨
-
+- [Installation](#Inststalltion)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
+# Installation
+Please refer - https://www.loom.com/share/b2d48e9c1e48496fb0ddba5a6c5b7020?sid=2143abc8-aa4d-477f-80b3-00a73247edc8
 # Description
 
 The **Next.js X/Twitter Auto Unfollower** simplifies managing your Twitter following list. Whether you're looking to unfollow inactive accounts or streamline your timeline, this extension provides a user-friendly interface for automating the unfollow process directly within your browser.
